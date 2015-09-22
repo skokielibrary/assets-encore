@@ -1,0 +1,43 @@
+/*header*/
+.brand{
+  display: block;
+  float: left;
+  margin: 15px;
+  margin-left: 15px;
+  overflow: hidden;
+
+  > img{
+    width: 180px;
+    height: auto;
+  }
+
+}
+
+/*search box*/
+#searchbox{
+  float: right;
+}
+
+/*content wrappers*/
+#contentWrapper, #homepageContentWrapper{
+  box-shadow: none;
+}
+
+/*records view*/
+.recordDetailValue{
+  margin: 1rem 0 4px;
+}
+
+/*footer*/
+#homepageFooterArea, #footerArea, #bookcartFooterArea{
+  background: darken($body-bg, 5%);
+}
+.footerBrandingArea{
+  text-align: right;
+
+  img {
+    width: 80px;
+    height: auto;
+  }
+
+}
